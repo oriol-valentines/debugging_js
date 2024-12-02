@@ -8,6 +8,6 @@ function incrementar() {
 }
 
 function reiniciar() {
-    const contador = 0; 
+    contador = 0; 
     document.getElementById('contador').innerText = contador;
 }
