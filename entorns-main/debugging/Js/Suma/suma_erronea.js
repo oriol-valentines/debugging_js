@@ -1,6 +1,6 @@
 function calcularSuma() {
-    const num1 = document.getElementById('num1').value;
-    const num2 = document.getElementById('num2').value;
+    const num1 = Number(document.getElementById('num1').value); //declarar que es un numero, agregando la funcion "Number(...)"
+    const num2 = Number(document.getElementById('num2').value); //declarar que es un numero, agregando la funcion "Number(...)"
     const suma = num1 + num2; 
     document.getElementById('resultado').innerText = `La suma es: ${suma}`;
 }
